@@ -1,7 +1,7 @@
 const express = require('express')
 
 const app = express()
-const PORT = process.env.PORT || 8000
+const PORT = process.env.PORT || 80
 
 app.use(function (req, res, next) {
     res.setHeader('Access-Control-Allow-Origin', '*')
